@@ -14,25 +14,118 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 **** PÁGINA INICIAL
 */
 
-/* VARIÁVEIS */
-:root{
-  
-}
 
 /*BODY*/
+
 	body{
 
+	background-color: #00002E;
+	align-items: center;
 	}
+
 
 /*TOPO*/
-	header.topo{
-		
-	}
+	.topo{
+		display:inline-flex;
+		width: 200px;
+		float: left; ;
+		}
 
 /*RODAPÉ*/
-	
-
-/*PÁGINA INICIAL*/
-	div.pg-home{
-		
+ul{
+	display:flex;
+	flex-flow: row wrap;
+	color:white;
+	list-style: none;
+	text-align:center;
+	width: 858px;
+}
+/*PÁGINA INICIAL*/	
+div.pg-home{
+	display: inline-flex;
+	flex-flow: row wrap;
 	}
+h2{
+margin-top: 15%;
+margin-right: 5%;
+color:white;	
+text-align: center;
+font-size: 70px;
+
+}
+button{
+	
+	background-color: #00002E;
+	margin-top: 10px;
+	margin-left: 40%;
+	width:  150px;
+	height: 40px;
+	border:1px solid white;
+	color: white;
+}
+.adper{
+	width: 85px;
+	margin-bottom: 20px;
+	margin-top: 22px;
+}
+li{
+	width: 186px;
+	height: 186px;
+}
+.char{
+	width: 125px;
+}
+.char:hover{
+	border: 1px solid white;
+}
+button:hover{
+	border: 1px solid red;
+}
+
+@media (max-width: 900px)
+{
+	li:nth-child(1){
+		position: absolute;
+		top: 130px;
+		right: 300px;
+	}
+	li:nth-child(2){
+		position: absolute;
+		top: 130px;
+		right:160px ;
+	}
+	li:nth-child(3){
+	
+		position: absolute;
+		top: 310px;
+		right:300px ;
+	}
+	li:nth-child(4){
+		position: absolute;
+		top: 310px;
+		right:155px ;
+	}
+	
+	h2{
+	margin-top: 2%;
+	margin-right: 15%;
+	color:white;	
+	text-align: center;
+	font-size: 30px;
+	
+		}
+		button{
+			background-color: #00002E;
+			margin-top: 350px;
+			margin-left: 33%;
+			width:  150px;
+			height: 40px;
+			border:1px solid white;
+			color: rgb(114, 110, 110);
+		}
+		.topo{	
+			display: block;
+			width: 250px;
+			padding-left: 37%;
+			}
+}
