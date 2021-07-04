@@ -117,29 +117,7 @@ button:hover{
 }
 
 @media only screen and (max-width: 600px){
-	
-	li:nth-child(1){
-		position: absolute;
-		top: 130px;
-		right: 300px;
-	}
-	li:nth-child(2){
-		position: absolute;
-		top: 130px;
-		right:160px ;
-	}
-	li:nth-child(3){
-	
-		position: absolute;
-		top: 310px;
-		right:300px ;
-	}
-	li:nth-child(4){
-		position: absolute;
-		top: 310px;
-		right:155px ;
-	}
-	
+		
 	h2{
 	margin-top: 2%;
 	margin-right: 15%;
@@ -158,7 +136,7 @@ button:hover{
 			color: rgb(114, 110, 110);
 		}
 		.topo{	
-			display: block;
+			display: column;
 			width: 250px;
 			padding-left: 37%;
 			}
