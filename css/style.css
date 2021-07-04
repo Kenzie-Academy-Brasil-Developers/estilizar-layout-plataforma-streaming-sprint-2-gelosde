@@ -68,7 +68,7 @@ button:hover{
 	border: 1px solid red;
 }
 
-@media (max-width: 900px)
+@media (max-width: 900px) and (min-width:610px)
 {
 	li:nth-child(1){
 		position: absolute;
