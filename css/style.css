@@ -27,7 +27,7 @@ ul{
 }
 /*PÁGINA INICIAL*/	
 div.pg-home{
-	display: inline-flex;
+	display: table;
 	flex-flow: row wrap;
 	width: 858px;
 	}
