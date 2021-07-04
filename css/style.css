@@ -1,5 +1,6 @@
+
 /*'Helvetica Neue' so tem pago oque faço?ja sans-serif,
-helvetica e arial tem no meu pc por isso não vou colocar font link*/
+helvetica e arial tem no meu pc por isso não vou colocar*/
 
 
 	body{
@@ -10,9 +11,8 @@ helvetica e arial tem no meu pc por isso não vou colocar font link*/
 	}
 
 
-/*TOPO*/
 	.topo{
-		display:inline-flex;
+		display: inline-flex;
 		width: 200px;
 		float: left; ;
 		}
@@ -25,9 +25,8 @@ ul{
 	list-style: none;
 	text-align:center;
 }
-/*PÁGINA INICIAL*/	
 div.pg-home{
-	display: table;
+	display:table;
 	flex-flow: row wrap;
 	width: 858px;
 	}
