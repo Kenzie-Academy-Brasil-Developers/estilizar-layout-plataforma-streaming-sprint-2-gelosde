@@ -172,10 +172,11 @@ color: gray;
 		
 	 .topo{
 		position:sticky;
-		width: 240px;
+		width: 150px;
+		padding-left: 30%;
 		 }
 	 .pg-home{
-		 margin-left: 20%;
+		 margin-left: 10%;
 		 width: 858px;
 		 height: 500px;
 		}
